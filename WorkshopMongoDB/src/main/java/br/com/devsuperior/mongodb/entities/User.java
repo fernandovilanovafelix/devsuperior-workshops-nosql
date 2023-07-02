@@ -54,6 +54,10 @@ public class User implements Serializable {
 		this.email = email;
 	}
 
+	public List<Post> getPosts() {
+		return posts;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
