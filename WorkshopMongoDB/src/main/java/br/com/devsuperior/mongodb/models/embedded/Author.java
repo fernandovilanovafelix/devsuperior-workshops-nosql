@@ -1,6 +1,6 @@
-package br.com.devsuperior.mongodb.entities.embedded;
+package br.com.devsuperior.mongodb.models.embedded;
 
-import br.com.devsuperior.mongodb.entities.User;
+import br.com.devsuperior.mongodb.models.entities.User;
 
 public class Author {
 

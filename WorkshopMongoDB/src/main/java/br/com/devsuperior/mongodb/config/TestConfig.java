@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import br.com.devsuperior.mongodb.entities.Post;
-import br.com.devsuperior.mongodb.entities.User;
-import br.com.devsuperior.mongodb.entities.embedded.Author;
-import br.com.devsuperior.mongodb.entities.embedded.Comment;
+import br.com.devsuperior.mongodb.models.embedded.Author;
+import br.com.devsuperior.mongodb.models.embedded.Comment;
+import br.com.devsuperior.mongodb.models.entities.Post;
+import br.com.devsuperior.mongodb.models.entities.User;
 import br.com.devsuperior.mongodb.repositories.PostRepository;
 import br.com.devsuperior.mongodb.repositories.UserRepository;
 import jakarta.annotation.PostConstruct;

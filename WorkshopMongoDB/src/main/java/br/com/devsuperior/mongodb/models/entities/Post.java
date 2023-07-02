@@ -1,4 +1,4 @@
-package br.com.devsuperior.mongodb.entities;
+package br.com.devsuperior.mongodb.models.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -8,8 +8,8 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import br.com.devsuperior.mongodb.entities.embedded.Author;
-import br.com.devsuperior.mongodb.entities.embedded.Comment;
+import br.com.devsuperior.mongodb.models.embedded.Author;
+import br.com.devsuperior.mongodb.models.embedded.Comment;
 
 @Document(collection = "posts")
 public class Post implements Serializable {

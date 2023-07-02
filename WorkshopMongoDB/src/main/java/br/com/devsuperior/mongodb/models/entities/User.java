@@ -1,4 +1,4 @@
-package br.com.devsuperior.mongodb.entities;
+package br.com.devsuperior.mongodb.models.entities;
 
 import java.io.Serializable;
 import java.util.ArrayList;

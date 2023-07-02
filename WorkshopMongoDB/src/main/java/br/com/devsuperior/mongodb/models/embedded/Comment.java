@@ -1,4 +1,4 @@
-package br.com.devsuperior.mongodb.entities.embedded;
+package br.com.devsuperior.mongodb.models.embedded;
 
 import java.io.Serializable;
 import java.time.Instant;
